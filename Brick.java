@@ -31,5 +31,6 @@ public class Brick extends BaseObject {
     @Override
     void move() {
         //do nothing
+        throw new UnsupportedOperationException();
     }
 }
